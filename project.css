@@ -1,0 +1,124 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+height: 100vh;
+overflow: hidden;
+}
+
+.container{
+display: flex;
+height: 100vh;
+}
+
+.left{
+width: 38%;
+background-color: #d7e1ff;
+position: relative;
+padding: 40px 50px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.navbar {
+background: white;
+padding: 14px 22px;
+border-radius: 40px;
+align-items: center;
+width: fit-content;
+display: flex;
+gap: 25px;
+}
+
+.navbar a{
+text-decoration: none;
+color: #444;
+font-size: 14px;
+font-weight: 500;
+}
+
+.content {
+text-align: center;
+}
+
+.content h1{
+font-size: 90px;
+line-height: 0.9;
+color: #0a45ff;
+font-weight: 800;
+margin-bottom: 35px;
+}
+
+.icon{
+font-size: 55px;
+margin-bottom: 25px;
+}
+
+.content p {
+color: #1e3c91;
+font-size: 22px;
+line-height: 1.5;
+max-width: 400px;
+margin: 0 auto;
+}
+
+.location{
+color: #3560c9;
+font-size: 18px;
+}
+
+.right{
+width: 62%;
+position: relative;
+background-image: url("IMG_3689.jpeg");
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.overlay {
+position: absolute;
+inset: 0;
+background: rgba(255,255,255,0.15);
+}
+
+.card{
+position: relative;
+z-index: 2;
+width: 340px;
+background: white;
+padding: 14px;
+}
+
+.card img {
+width: 100%;
+height: 280px;
+object-fit: cover;
+border-radius: 40px;
+}
+
+.card-text{
+padding: 24px 10px 14px;
+text-align: center;
+}
+
+.card-text span{
+color: #666;
+font-size: 15px;
+}
+
+.card-text h2{
+margin-top: 14px;
+font-size: 34px;
+line-height: 1.2;
+color: #222;
+}
